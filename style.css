@@ -1,7 +1,103 @@
 *{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
     color: rgb(243, 232, 218);
     background-color: rgb(17, 16, 16);
         font-family: 'Noto Serif', serif;
     font-family: 'Roboto Condensed', sans-serif;
    
+}
+.header{
+    width: 100%;
+    height: auto;
+    padding: 2rem 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.navbar{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar :hover,
+.navbar .active,
+span
+{
+    color:rgb(117, 4, 4);
+}
+.navbar a{
+    margin-left: 1rem;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    position: relative;
+}
+.home{
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+}
+.home-content{
+    max-width: 45rem;
+}
+.home-content h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height:1.5;
+}
+.home-content h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height:2;
+}
+.home-content p{
+    line-height:1.2;
+}
+.btn-box{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:20rem;
+    padding: 5% 0 9% 0;
+   
+}
+.btn-content{
+  border:2px solid rgb(117, 4, 4);
+  border-radius:10px  ;
+  width: 7rem;
+  text-align: center;
+
+}
+.home-icons{
+    position: absolute;
+}
+
+
+.home-icons i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   z-index: 1;
+    width: 40px;
+    height:40px;
+    border:2px solid rgb(117, 4, 4);
+    border-radius: 50%;
+ margin-left:1rem ;
+
+   
+
 }
