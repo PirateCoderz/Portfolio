@@ -1,0 +1,47 @@
+
+.header{
+    width: 100%;
+    height: auto;
+    padding: 2rem 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.toggle {display: none;}
+#checkbox {display: none;}
+
+.navbar{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar a:hover,
+.navbar a.active,
+span
+{
+    color:rgb(117, 4, 4);
+}
+.navbar a{
+    margin-left: 1rem;
+}
+
+@media (max-width:864px) {
+    .education { display: none;}
+}
+
+@media (max-width:768px) {
+    .about { display: none;}    
+}
+
+@media (max-width:566px) {
+    .navbar { display: none;}
+    .toggle { display: block;}
+    .toggle-btn { font-size: 25px;}
+}

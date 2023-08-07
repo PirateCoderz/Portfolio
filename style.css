@@ -11,34 +11,6 @@
     font-family: 'Roboto Condensed', sans-serif;
    
 }
-.header{
-    width: 100%;
-    height: auto;
-    padding: 2rem 9%;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 100;
-}
-.logo{
-    font-size: 2rem;
-    font-weight: bolder;
-}
-.navbar{
-    font-size: 1rem;
-    font-weight: bold;
-}
-.navbar :hover,
-.navbar .active,
-span
-{
-    color:rgb(117, 4, 4);
-}
-.navbar a{
-    margin-left: 1rem;
-}
 section{
     width: 100%;
     min-height: 100vh;
@@ -75,11 +47,16 @@ section{
    
 }
 .btn-content{
-  border:2px solid rgb(117, 4, 4);
-  border-radius:10px  ;
-  width: 7rem;
-  text-align: center;
-
+    border:2px solid rgb(117, 4, 4);
+    border-radius:10px  ;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    transition: all 0.3s  ease-in;
+}
+.btn-content:hover, .btn-content:focus,
+.home-icons i:hover,  .home-icons i:focus {
+    border-color: white;
+    background-color: rgb(117, 4, 4);
 }
 .home-icons{
     position: absolute;
@@ -90,14 +67,12 @@ section{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-   position: relative;
-   z-index: 1;
+    position: relative;
+    transition: all 0.3s  ease-in;
+    z-index: 1;
     width: 40px;
     height:40px;
     border:2px solid rgb(117, 4, 4);
     border-radius: 50%;
- margin-left:1rem ;
-
-   
-
+    margin-left:1rem ;
 }

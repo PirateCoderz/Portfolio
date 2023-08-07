@@ -1,55 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- External css -->
-    <link rel="stylesheet" href="style.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+
     <!-- Font-style -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Condensed&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- icons-style  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-</head>
+    <!-- wow Animations -->
+    <link rel="stylesheet" href="css/animate.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Code of header -->
     <header>
-        <div class="header">
-            <a href="#" class="logo">LAIBAAK<span>BAR.</span></a>
-            <nav class="navbar">
-                <a href="#home" class="active"><i class="fa-sharp fa-solid fa-house-chimney fa-bounce active"  ></i> HOME</a>
-                <a href="#about"><i class="fa-solid fa-circle-info fa-bounce"></i> ABOUT</a>
-                <a href="#education"><i class="fa-solid fa-graduation-cap fa-bounce"></i> EDUCATION</a>
-                <a href="#skill"><i class="fa-sharp fa-solid fa-face-smile fa-bounce"></i> SKILL</a>
-           
-                <a href="#contact"><i class="fa-solid fa-address-card fa-bounce"></i> CONTACT</a>
-            </nav>
+      <div class="header">
+        <a href="#" class="logo">LAIBAAK<span>BAR.</span></a>
+        <div class="toggle">
+            <input type="checkbox" id="checkbox">
+            <i class="fa fa-bars toggle-btn"></i>
         </div>
+        <nav class="navbar">
+          <a href="#home" class="active"
+            ><i class="fa-sharp fa-solid fa-house-chimney fa-bounce active"></i>
+            HOME</a
+          >
+          <a href="#about" class="about"
+            ><i class="fa-solid fa-circle-info fa-bounce"></i> ABOUT</a
+          >
+          <a href="#education" class="education"
+            ><i class="fa-solid fa-graduation-cap fa-bounce"></i> EDUCATION</a
+          >
+          <a href="#skill"
+            ><i class="fa-sharp fa-solid fa-face-smile fa-bounce"></i> SKILL</a
+          >
+
+          <a href="#contact"
+            ><i class="fa-solid fa-address-card fa-bounce"></i> CONTACT</a
+          >
+        </nav>
+      </div>
+
     </header>
     <section class="home" id="home">
-   <div class="home-content">
-    <h1>Hi,I'm <span>Laiba Akbar</span></h1>
-    <h3>WEb Developer</h3>
-    <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites. Web Development.</p>
-    <div class="btn-box">
-        <a href="#" class="btn-content">Hire me</a>
-        <a href="#" class="btn-content">Let's talk</a>
-    </div>
-    <div class="home-icons">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-    </div>
-   </div> 
-</section>
-</body>
+      <div class="home-content">
+        <h1 class="wow bounceIn">Hi,I'm <span>Laiba Akbar</span></h1>
+        <h3 class="wow fadeInLeft">Web Developer</h3>
+        <p class="wow fadeInLeft">
+          Web development refers to the creating, building, and maintaining of
+          websites. It includes aspects such as web design, web publishing, web
+          programming, and database management. It is the creation of an
+          application that works over the internet i.e. websites. Web
+          Development.
+        </p>
+        <div class="btn-box">
+          <a href="#" class="btn-content wow bounceInDown">Hire me</a>
+          <a href="#" class="btn-content wow bounceInDown">Let's talk</a>
+        </div>
+        <div class="home-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </section>
 
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
 </html>
