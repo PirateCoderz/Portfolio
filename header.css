@@ -13,6 +13,7 @@
 .logo{
     font-size: 2rem;
     font-weight: bolder;
+    background-color: transparent;
 }
 
 .toggle {display: none;}
@@ -22,6 +23,7 @@
     font-size: 1rem;
     font-weight: bold;
 }
+
 .navbar a:hover,
 .navbar a.active,
 span
