@@ -121,3 +121,21 @@ h2{
     border-radius: 5%;
 
 }
+.skill-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-col{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid  rgb(117, 4, 4); */
+    border-radius: 25px;
+    padding: 2rem;
+    box-shadow: 3px 3px 2px  rgb(117, 4, 4);
+
+}
+.skill-icon{
+    padding-right: 5px;
+}
