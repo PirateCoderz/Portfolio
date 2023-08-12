@@ -1,0 +1,38 @@
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+ }
+ .about-img img{
+   width: 250px;
+   height: 250px;
+   border: 2px solid rgb(117, 4, 4);
+   border-radius: 50%;
+ }
+ .education-row{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: auto;
+  }
+  .education-column{
+     width: 50%;
+     height: auto;
+  }
+ .year,.content{
+     line-height: 2;
+ }
+ 
+ .content{
+     width: 90%;
+     height: auto;
+     margin-bottom:2rem;
+     padding: 2rem;
+     border: 2px solid rgb(117, 4, 4);
+     border-radius: 5%;
+ 
+ }

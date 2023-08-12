@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+
+    .education-row {
+        margin-left: auto;
+    flex-direction: column;
+    }
+    .education-column {
+        width: 90%;
+    }
+    
+}

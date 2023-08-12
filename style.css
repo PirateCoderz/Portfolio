@@ -1,16 +1,4 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: rgb(243, 232, 218);
-    background-color: rgb(17, 16, 16);
-        font-family: 'Noto Serif', serif;
-    font-family: 'Roboto Condensed', sans-serif;
-   
-}
+
 section{
     width: 100%;
     min-height: 100vh;
@@ -22,15 +10,15 @@ h1{
     font-weight: bolder;
     line-height:1.5;
 }
- h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height:2;
-}
 h2{
     font-size: 2rem;
     font-weight: bold;
     line-height:2; 
+}
+ h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height:2;
 }
 .heading{padding-bottom: 3.5rem; text-align: center;}
 
@@ -83,43 +71,6 @@ h2{
     border:2px solid rgb(117, 4, 4);
     border-radius: 50%;
     margin-left:1rem ;
-}
-.about-content{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   gap: 1.5rem;
-}
-.about-img img{
-  width: 250px;
-  height: 250px;
-  border: 2px solid rgb(117, 4, 4);
-  border-radius: 50%;
-}
-.education-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
- }
- .education-column{
-    width: 50%;
-    height: auto;
- }
-.year,.content{
-    line-height: 2;
-}
-
-.content{
-    width: 90%;
-    height: auto;
-    margin-bottom:2rem;
-    padding: 2rem;
-    border: 2px solid rgb(117, 4, 4);
-    border-radius: 5%;
-
 }
 .skill-row{
     width: 100%;
