@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/css/header.css" />
   <link rel="stylesheet" href="/css/about.css">
   <link rel="stylesheet" href="/css/skills.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
 
   <!-- Font-style -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -158,28 +159,31 @@
         <p><i class="fa-solid fa-compact-disc skill-icon"></i> SOFTWARE INSTALLATION</p>
         <p><i class="fa-brands fa-windows skill-icon"></i> WINDOW INSTALLATION</p> 
       </div>
-      <div class="skill-col"> 
+      <div class="skill-col" style="display: none;"> 
       </div>
 
     </div>
   </section>
 
   <!-- contact-content -->
-<section class="contact" id="contact">
-  <h1 class="heading">Contact <span>Me!</span></h1>
-  <form action="action_page.php" autocomplete="on" target="_blank" method="post">
-    <div class="form">
-    <div class="form-partA"><fieldset><legend><h2>Personal Information:</h2></legend></fieldset>
-    <input type="text" placeholder="Full_name:">
-    <input type="email" placeholder="E_mail:">
-    <input type="tel" placeholder="Phone number:">
-  </div>
-    <div class="form-partB"><fieldset><legend><h2>Your Message:</h2></legend></fieldset></div></div>
-    <div class="btn-box">
-      <a href="#" class="btn-content wow bounceInDown">Submit</a>
+  <section class="contact" id="contact">
+    <h1 class="heading">Contact <span>Me!</span></h1>
+    <form action="action_page.php" autocomplete="on" target="_blank" method="post">
+      <div class="form">
+      <div class="form-partA"><fieldset><legend><h2>Personal Information:</h2></legend></fieldset>
+      <input type="text" placeholder="Full_name:">
+      <input type="email" placeholder="E_mail:">
+      <input type="tel" placeholder="Phone number:">
     </div>
-  </form>
-</section>
+      <div class="form-partB">  <fieldset>
+        <legend><h2> Your Message :</h2></legend>
+       <textarea name="Message" placeholder="If you wants to change, you leave a Message:" ></textarea></div>
+    </fieldset>
+      <div class="btn-box" >
+        <input type="submit" class="btn-content wow bounceInDown" name="submit" id="submit">
+      </div>
+    </form>
+  </section>
 
   <script src="/js/index.js"></script>
   <script src="js/wow.js"></script>
