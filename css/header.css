@@ -51,11 +51,25 @@ span
     .nav_education { display: none;}
 }
 
-@media (max-width:566px) {
+@media (max-width:768px) {
     .navbar { display: none;}
     .toggle { display: block;}
-    .toggle-btn { font-size: 25px;}
-    
+    .toggle-btn { font-size: 25px; cursor: pointer;}
     .home .home-details { font-size: 100%; }
 
+    .navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 30px;
+    height: 100vh;
+    font-size: 1.5rem;
+    left: 0;
+    transform: translateX(-100%);
+    gap: 1rem;
+    top: 4rem;
+    background-color: rgb(17, 16, 16);
+    }
+
+    .show_navbar { transform: translate(0%) !important;}
 }
