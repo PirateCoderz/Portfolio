@@ -40,16 +40,22 @@ span
     background-color: transparent;
 }
 
+
+
+/*   =============== HOME CSS =============== */
+
+.home .home-details { font-size: 150%; }
+
+
 @media (max-width:864px) {
     .nav_education { display: none;}
-}
-
-@media (max-width:768px) {
-    .about { display: none;}    
 }
 
 @media (max-width:566px) {
     .navbar { display: none;}
     .toggle { display: block;}
     .toggle-btn { font-size: 25px;}
+    
+    .home .home-details { font-size: 100%; }
+
 }

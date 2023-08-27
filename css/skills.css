@@ -1,5 +1,16 @@
+
 @media (max-width: 768px) {
 
+    .education, .skill {
+        padding-top: 0;
+    }
+    .skill-row {
+    flex-direction: column;
+    gap: 2rem;
+    }
+    .skill-row .skill-col {
+        width: 80%;
+    }
     .education-row {
         margin-left: auto;
     flex-direction: column;
