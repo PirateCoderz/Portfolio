@@ -15,6 +15,7 @@
     font-weight: bolder;
     background-color: transparent;
 }
+.logo span { background-color: transparent;}
 
 .toggle {display: none;}
 #checkbox {display: none;}
