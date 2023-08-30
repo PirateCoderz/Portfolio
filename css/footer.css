@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.form-partA {
+    width: 45%;
+    margin-right: 5%;
+}
 .form-partA input {
     width: 100%;
     height: auto;
@@ -14,10 +18,9 @@
     margin-top: 2rem;
 }
 
+.form-2 { display: flex; flex-direction: column; width: 50%;}
 .form-partB {
-    width: 100%;
     height: auto;
-    margin-top: 5rem;
 }
 
 .form-partB textarea {
@@ -40,4 +43,16 @@
         display: flex;
         flex-direction: column;
     }
+
+    .btn-box {
+        width: auto;
+    }
+    .form-partA {
+        width: 100%;
+    }
+    .form-2 {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
 }

@@ -45,7 +45,7 @@ span
 
 /*   =============== HOME CSS =============== */
 
-.home .home-details { font-size: 150%; }
+.home .home-details { font-size: 120%; }
 
 
 @media (max-width:864px) {
@@ -71,6 +71,7 @@ span
     top: 4rem;
     background-color: rgb(17, 16, 16);
     }
+    .nav_education { display: block;}
 
     .show_navbar { transform: translate(0%) !important;}
 }
